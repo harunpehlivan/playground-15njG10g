@@ -1,6 +1,7 @@
 # Simulated Annealing in C#
 
-In this example, we will doing a simple thing : adjusting one coefficent for having a better results for the algorithm.
+The simulated annealing is a metaheuristic, a random search algorithm inspired from physics sciences.
+In this example, we will doing a simple thing : adjusting one coefficent for having a better results for the algorithm to found the minimum of the function : f(X)=0.11(0.5 X² + Cos[Pi X] - 2 Sin[2 Pi X] + Cos[3 Pi X]*Sin[Pi X] in [-5; 5].
 
 
 ```C# runnable
