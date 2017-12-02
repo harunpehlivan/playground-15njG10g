@@ -111,6 +111,11 @@ namespace SimulatedAnnealing
             // After running the playground :
             // When the ct0 = ct1 or ct2 = ct3, its a bad adjustement.
             // A possible good situation was where ct2 =~ 2 x ct1 and ct3 =~ 10 x ct2.
+            
+            
+            
+            // The number of simulations is now fixed to 200.
+            // Next time we will see how to change the number of simulations.
 // { autofold
 
             List<double> sols = new List<double>();
