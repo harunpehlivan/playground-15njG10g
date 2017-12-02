@@ -111,8 +111,8 @@ namespace SimulatedAnnealing
             COEF = 1; // <- Try with 1, 10, 100, 1000.....
 
             // After running the playground :
-            // When the ct0 = ct1 or ct2 = ct3, its a bad adjustement.
-            // A possible good situation was where ct2 =~ 2 x ct1 and ct3 =~ K x ct2 where K depends of number of local optimum.
+            // When ct0 =~ ct1 or ct2 =~ ct3, its a bad adjustement.
+            // A possible good situation is when ct2 =~ 2 x ct1 and ct3 =~ K x ct2 where K depends of number of local optimum.
             
             
             
