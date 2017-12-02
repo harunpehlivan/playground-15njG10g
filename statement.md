@@ -154,7 +154,7 @@ namespace SimulatedAnnealing
             if (std > 0.025)
                 Console.Error.WriteLine("Standard deviation is too big");
 
-            if ((ct2 + 0.00) / (ct3 + 0.00) > 0.9)
+            if ((ct2 + 0.00) / (ct3 + 0.00) > 0.5)
                 Console.Error.WriteLine("Too many jump ahead");
 
             if ((ct1 + 0.00) / (ct2 + 0.00) > 0.9)
