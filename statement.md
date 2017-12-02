@@ -5,6 +5,8 @@ In this example, we will doing a simple thing : adjusting one coefficent for hav
 
 f(X)=0.11(0.5 X² + Cos[Pi X] - 2 Sin[2 Pi X] + Cos[3 Pi X]*Sin[Pi X] in [-5; 5].
 
+![Image](https://github.com/iadevoops/playground-15njG10g/blob/master/sa.gif)
+
 
 ```C# runnable
 // { autofold
