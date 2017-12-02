@@ -105,7 +105,8 @@ namespace SimulatedAnnealing
             // COEF is the Most important value to adjust. energy = COEF x myFunction(x)
             // When the ct0 = ct1 or ct2 = ct3, its a bad adjustement.
             // A possible good situation was where ct2 =~ 2 x ct1 and ct3 =~ 10 x ct2.
-            COEF = 1; // <- Change this value until having a quality results for Simulated Annealing. Run the prog to see the effects.
+            // Change this value until having a quality results for Simulated Annealing. 
+            COEF = 1; // <- Change it with 10, 100, 1000.....
 
             
         // { autofold
