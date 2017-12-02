@@ -115,7 +115,7 @@ namespace SimulatedAnnealing
             
             
             // The number of simulations is now fixed to 200.
-            // Next time we will see how to change the number of simulations.
+            // Next time we will see how to change for better precisions.
 // { autofold
 
             List<double> sols = new List<double>();
