@@ -156,7 +156,7 @@ namespace SimulatedAnnealing
             if ((ct2 + 0.00) / (ct3 + 0.00) > 0.5)
                 Console.Error.WriteLine("Too many jump ahead");
 
-            if ((ct1 + 0.00) / (ct2 + 0.00) > 0.9)
+            if (Math.Abs(ct1 - ct0 + 0.00) / (ct0 + 0.00) < 0.1)
                 Console.Error.WriteLine("Too few local optimum search");
         }
     }
