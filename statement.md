@@ -117,6 +117,7 @@ namespace SimulatedAnnealing
             Console.WriteLine();
 
             var best = simulated_annealing();
+            Console.WriteLine("COEF = {0}", COEF);
             Console.WriteLine("Found : Xmin={0,6:0.000}.", best);
             Console.WriteLine("ct0 : {0,4} Global better value found", ct0);
             Console.WriteLine("ct1 : {0,4} Local better value found", ct1);
@@ -135,11 +136,9 @@ namespace SimulatedAnnealing
             var std = Math.Sqrt(sols.Sum(s => (s - avg) * (s - avg)) / sols.Count);
             var min = sols.Min();
             var max = sols.Max();
-            Console.Error.WriteLine("Avg : Xmin={0,6:0.000}; sigma : {1,6:0.000}", avg, std);
-            Console.Error.WriteLine("{0} values are in ] avg - sigma; avg + sigma [", sols.Count(s => s > avg - std && s < avg + std));
-            Console.Error.WriteLine("Min : {0,6:0.000}; Max : {1,6:0.000}; Max - Min = {2:0.000}", min, max, max - min);
-
-            Console.ReadLine();
+            Console.WriteLine("Avg : Xmin={0,6:0.000}; sigma : {1,6:0.000}", avg, std);
+            Console.WriteLine("{0} values are in ] avg - sigma; avg + sigma [", sols.Count(s => s > avg - std && s < avg + std));
+            Console.WriteLine("Min : {0,6:0.000}; Max : {1,6:0.000}; Max - Min = {2:0.000}", min, max, max - min);
         }
     }
 }
