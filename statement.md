@@ -101,7 +101,7 @@ namespace SimulatedAnnealing
 
         static void Main(string[] args)
         {
-        // }
+// }
 
             // COEF is the Most important value to adjust. energy = COEF x myFunction(x)
             // When the ct0 = ct1 or ct2 = ct3, its a bad adjustement.
@@ -110,7 +110,7 @@ namespace SimulatedAnnealing
             COEF = 1; // <- Change it with 10, 100, 1000.....
 
             
-        // { autofold
+// { autofold
 
             List<double> sols = new List<double>();
 
