@@ -151,7 +151,7 @@ namespace SimulatedAnnealing
             Console.WriteLine("Min : {0,6:0.000}; Max : {1,6:0.000}; Max - Min = {2:0.000}", min, max, max - min);
             
             if (Math.Abs(-0.711 - avg) > 0.025)
-                Console.Error.WriteLine("Average is too big");
+                Console.Error.WriteLine("Average is too different from th real optimimum");
 
             if (std > 0.025)
                 Console.Error.WriteLine("Standard deviation is too big");
