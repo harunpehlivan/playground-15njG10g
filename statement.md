@@ -60,7 +60,7 @@ namespace SimulatedAnnealing
             double minTemp = 1;
 
             // We change this coef for adjusting the decreasing of temperature. In this case, for doing 200 simulations. 
-            //coolingrate = -log(minTemp/Temperature) / nbSimulation
+            //coolingrate = exp(-log(minTemp/Temperature) / nbSimulation)
             double coolingRate = 0.034;
 
             double searcheGlobalMinimum = random_x(XMIN, XMAX);
