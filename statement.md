@@ -1,6 +1,6 @@
 # Simulated Annealing in C#
 
-In this example, we will doing a simple things : adjusting one coefficent for having a better results for the algorithm.
+In this example, we will doing a simple thing : adjusting one coefficent for having a better results for the algorithm.
 
 
 ```C# runnable
