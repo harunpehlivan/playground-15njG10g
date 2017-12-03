@@ -77,7 +77,7 @@ namespace SimulatedAnnealing
                 //double delta = rand.Next(10) == 0 ? 2 : 0.1; 
                 //currentValue = random_variate(searchLocalMinimum, XMIN, XMAX, delta);
 
-                currentValue = random_variate(searchLocalMinimum, XMIN, XMAX, 1);
+                currentValue = random_variate(searchLocalMinimum, XMIN, XMAX, 2);
 
                 if (acceptanceProbability(energy(searchLocalMinimum), energy(currentValue), Temperature) > rand.NextDouble())
                 {
